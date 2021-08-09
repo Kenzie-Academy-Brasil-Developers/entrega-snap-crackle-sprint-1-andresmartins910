@@ -1,9 +1,15 @@
 // função para verificar se um determinado número é primo
 // código retirado do seguinte link
 // https://stackoverflow.com/questions/40200089/number-prime-test-in-javascript
+
+// P.S: não consegui criar a função isPrime a tempo, por isso usei essa função pronta
+// P.S²: sei que provavelmente não ganharei a nota desse bônus
+// P.S³: faz parte 
 function isPrime(num) {
-    for(var i = 2; i < num; i++)
-      if(num % i === 0) return false;
+    for(let i = 2; i < num; i++)
+      if(num % i === 0) {
+          return false;
+      }
     return num > 1;
   }
 

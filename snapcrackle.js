@@ -16,7 +16,7 @@ function snapCrackle(maxValue) {
             if (i < maxValue) {
                 stringSnapCrackle += "Crackle" + ", "
             } else {
-                stringSnapCrackle += i + "Crackle"
+                stringSnapCrackle += "Crackle"
             }
         }
 
@@ -40,3 +40,9 @@ function snapCrackle(maxValue) {
     }
     return stringSnapCrackle
 }
+
+console.log(snapCrackle(2))
+console.log(snapCrackle(5))
+console.log(snapCrackle(10))
+console.log(snapCrackle(12))
+console.log(snapCrackle(15))
